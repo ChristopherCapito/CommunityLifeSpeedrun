@@ -26,8 +26,10 @@ Danach habe ich das User-Model geschrieben und die Datenbank connected
 Mit dem grundlegenden aus dem Weg, habe ich angefangen die Routes vorzuschreiben. Es gibt Leute die schreiben gerne one-by-one, ich schreib mir persönlich (das ist wieder der Lehrer) erstmal ein Scaffolding damit ich weiß, was alles ansteht, und wie viele Routes da überhaupt reinmüssen.
 
 Die Routes habe ich wie folgt befüllt:
+
 ### 1. POST Register
 Mit bcrypt zum hashen des passworts. normalerweise würde man hier den ganzen input sanitizen und validieren, aber das hab ich jetzt aus zeitgründen weggelassen.
+
 ### 2. POST Login
 Quick paste aus der passport documentation. Danach habe ich erstmal die passport config erstellt. Hier, also im config file, wird auch direkt das passwort gescheckt via bcrypt.
 
